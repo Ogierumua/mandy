@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AppiumSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.qa.Listeners.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="AppiumTest(failed)">
+    <classes>
+      <class name="com.Appium.Tests.TestAPIDemo">
+        <methods>
+          <include name="KillAllNodes"/>
+          <include name="apiDemo"/>
+        </methods>
+      </class> <!-- com.Appium.Tests.TestAPIDemo -->
+    </classes>
+  </test> <!-- AppiumTest(failed) -->
+</suite> <!-- Failed suite [AppiumSuite] -->

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-06-19T07:58:48Z" name="AppiumSuite" finished-at="2021-06-19T08:02:36Z" duration-ms="227077">
+    <groups>
+    </groups>
+    <test started-at="2021-06-19T07:58:48Z" name="AppiumTest" finished-at="2021-06-19T08:02:36Z" duration-ms="227077">
+      <class name="com.Appium.Tests.TestAPIDemo">
+        <test-method is-config="true" signature="KillAllNodes()[pri:0, instance:com.Appium.Tests.TestAPIDemo@12d2ce03]" started-at="2021-06-19T07:58:48Z" name="KillAllNodes" finished-at="2021-06-19T07:58:51Z" duration-ms="3043" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllNodes -->
+        <test-method is-config="true" signature="KillAllNodes()[pri:0, instance:com.Appium.Tests.TestECommerce4@7d446ed1]" started-at="2021-06-19T07:58:51Z" name="KillAllNodes" finished-at="2021-06-19T07:58:55Z" duration-ms="3020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- KillAllNodes -->
+        <test-method signature="apiDemo(java.lang.String)[pri:0, instance:com.Appium.Tests.TestAPIDemo@12d2ce03]" started-at="2021-06-19T08:00:31Z" name="apiDemo" data-provider="InputData" finished-at="2021-06-19T08:01:37Z" duration-ms="65709" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[hello]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+        <test-method signature="apiDemo(java.lang.String)[pri:0, instance:com.Appium.Tests.TestAPIDemo@12d2ce03]" started-at="2021-06-19T08:01:37Z" name="apiDemo" data-provider="InputData" finished-at="2021-06-19T08:02:35Z" duration-ms="58446" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[#@!@123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- apiDemo -->
+      </class> <!-- com.Appium.Tests.TestAPIDemo -->
+      <class name="com.Appium.Tests.TestECommerce4">
+        <test-method signature="testValidation()[pri:0, instance:com.Appium.Tests.TestECommerce4@7d446ed1]" started-at="2021-06-19T07:58:55Z" name="testValidation" finished-at="2021-06-19T08:00:31Z" duration-ms="96322" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidation -->
+      </class> <!-- com.Appium.Tests.TestECommerce4 -->
+    </test> <!-- AppiumTest -->
+  </suite> <!-- AppiumSuite -->
+</testng-results>
